@@ -12,4 +12,7 @@
 
 ### 防禦
 ```
-1.
+1.可以用cmd中的netstat來找出可疑連接
+  Ep.netstat -ano 
+   netstat -a 可以找到所有活動的TCP連接、ip位址、狀態，但是無法查看PID
+           -n 只可以找到活動中的連接，而且不能查看PID
